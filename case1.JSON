@@ -1,0 +1,22 @@
+{
+   "Comments": "1. global shutter + log mode auto",
+   "Parameters":
+   {
+      "ImageFormat_custom": "IS_IMG_PNG",
+      "ExposureTime_ms_double": 1.1,
+      "PixelClock_MHz_int": 80,
+      "SwTriggerHz_double": 1,
+      "BlackLevelCorrection_bool": true,
+      "BlackLevelOffset_int": 100,
+      "AutoParameter_bool": false,
+      "GainBoost_bool": false,
+      "HWGainFactor_int": 100,
+      "HWGammaCorrection_bool": false,
+      "SWGammaCorrection_int": 100,
+      "HotPixelEnableSensorCorrection_bool": true,
+      "ColorMode_custom": "IS_CM_SENSOR_RAW10",
+      "DeviceFeatureLogMode_custom": "IS_LOG_MODE_AUTO",
+      "DeviceFeatureSetShutterModeGlobal_bool": true,
+      "DeviceFeatureSetShutterModeRolling_bool": false
+   }
+}
