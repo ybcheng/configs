@@ -3,7 +3,7 @@
    "Parameters":
    {
       "ImageFormat_custom": "IS_IMG_PNG",
-      "ExposureTime_ms_double": 1.1,
+      "ExposureTime_ms_double": 0.9,
       "PixelClock_MHz_int": 80,
       "SwTriggerHz_double": 1,
       "BlackLevelCorrection_bool": true,
@@ -18,5 +18,20 @@
       "DeviceFeatureLogMode_custom": "IS_LOG_MODE_OFF",
       "DeviceFeatureSetShutterModeGlobal_bool": false,
       "DeviceFeatureSetShutterModeRolling_bool": true
+   },
+   "4102719635":
+   {
+      "Band": "RedWhiteAndBlue",
+      "ExposureTime_ms_double": 1.123456789
+   },
+   "4102760682":
+   {
+      "Band": "670",
+      "ExposureTime_ms_double": 1.1
+   },
+   "4102815405":
+   {
+      "Band": "800",
+      "ExposureTime_ms_double": 0.9
    }
 }
