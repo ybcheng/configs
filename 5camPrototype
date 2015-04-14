@@ -1,0 +1,49 @@
+{
+   "Comments": "IDS 5cam system 1 -- global shutter + log mode auto",
+   "GigEVision": false,
+   "Parameters":
+   {
+      "ImageFormat_custom": "IS_IMG_PNG",
+      "ExposureTime_ms_double": 0.9,
+      "PixelClock_MHz_int": 80,
+      "SwTriggerHz_double": 1,
+      "BlackLevelCorrection_bool": true,
+      "BlackLevelOffset_int": 100,
+      "AutoParameter_bool": false,
+      "GainBoost_bool": false,
+      "HWGainFactor_int": 100,
+      "HWGammaCorrection_bool": false,
+      "SWGammaCorrection_int": 100,
+      "HotPixelEnableSensorCorrection_bool": true,
+      "ColorMode_custom": "IS_CM_SENSOR_RAW10",
+      "DeviceFeatureLogMode_custom": "IS_LOG_MODE_AUTO",
+      "DeviceFeatureSetShutterModeGlobal_bool": true,
+      "DeviceFeatureSetShutterModeRolling_bool": false
+   },
+   "Comments": "IDS 5-cam system #1",
+   "4102815408":
+   {
+      "Band": "480",
+      "ExposureTime_ms_double": 0.8
+   },
+   "4102815413":
+   {
+      "Band": "550",
+      "ExposureTime_ms_double": 0.8
+   },
+   "4102815404":
+   {
+      "Band": "670",
+      "ExposureTime_ms_double": 0.8
+   },
+   "4102815400":
+   {
+      "Band": "700",
+      "ExposureTime_ms_double": 0.8
+   },
+   "4102815409":
+   {
+      "Band": "800",
+      "ExposureTime_ms_double": 0.8
+   }
+}
