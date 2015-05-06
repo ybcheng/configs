@@ -3,6 +3,7 @@
    "GigEVision": false,
    "Parameters":
    {
+      "LogAllSettings_bool": false,
       "ImageFormat_custom": "IS_IMG_PNG",
       "ExposureTime_ms_double": 0.9,
       "PixelClock_MHz_int": 80,
@@ -24,26 +25,26 @@
    "4102815408":
    {
       "Band": "480",
-      "ExposureTime_ms_double": 0.8
+      "ExposureTime_ms_double": 0.83
    },
    "4102815413":
    {
       "Band": "550",
-      "ExposureTime_ms_double": 0.8
+      "ExposureTime_ms_double": 0.87
    },
    "4102815404":
    {
       "Band": "670",
-      "ExposureTime_ms_double": 0.8
+      "ExposureTime_ms_double": 0.78
    },
    "4102815400":
    {
       "Band": "700",
-      "ExposureTime_ms_double": 0.8
+      "ExposureTime_ms_double": 0.72
    },
    "4102815409":
    {
       "Band": "800",
-      "ExposureTime_ms_double": 0.8
+      "ExposureTime_ms_double": 1.0
    }
 }
