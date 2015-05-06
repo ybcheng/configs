@@ -2,6 +2,7 @@
    "Comments": "IDS 2cam system 1 -- global shutter + log mode auto",
    "Parameters":
    {
+      "LogAllSettings_bool": false,
       "ImageFormat_custom": "IS_IMG_PNG",
       "ExposureTime_ms_double": 0.9,
       "PixelClock_MHz_int": 80,
