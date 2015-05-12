@@ -3,7 +3,6 @@
    "Parameters":
    {
       "LogAllSettings_bool": false,
-      "ImageTimeout_int": 2,
       "ImageFormat_custom": "IS_IMG_PNG",
       "ExposureTime_ms_double": 0.9,
       "PixelClock_MHz_int": 80,
