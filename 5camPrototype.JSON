@@ -41,11 +41,11 @@
    "4102815400":
    {
       "Band": "700",
-      "ExposureTime_ms_double": 0.72
+      "ExposureTime_ms_double": 0.85
    },
    "4102815409":
    {
       "Band": "800",
-      "ExposureTime_ms_double": 1.0
+      "ExposureTime_ms_double": 0.9
    }
 }
