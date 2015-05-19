@@ -7,7 +7,7 @@
       "ImageTimeout_int": 2,
       "ImageFormat_custom": "IS_IMG_PNG",
       "ExposureTime_ms_double": 0.9,
-      "PixelClock_MHz_int": 80,
+      "PixelClock_MHz_int": 20,
       "SwTriggerHz_double": 1,
       "BlackLevelCorrection_bool": true,
       "BlackLevelOffset_int": 100,
@@ -31,7 +31,7 @@
    "4102815413":
    {
       "Band": "550",
-      "ExposureTime_ms_double": 0.87
+      "ExposureTime_ms_double": 0.95
    },
    "4102815404":
    {
@@ -41,7 +41,7 @@
    "4102815400":
    {
       "Band": "700",
-      "ExposureTime_ms_double": 0.85
+      "ExposureTime_ms_double": 1.00
    },
    "4102815409":
    {
