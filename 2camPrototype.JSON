@@ -1,11 +1,10 @@
 {
-   "Comments": "IDS 2cam system 1 -- global shutter + log mode auto",
+   "Comments": "IDS 2cam system -- global shutter + log mode auto",
    "Parameters":
    {
-      "LogAllSettings_bool": false,
       "ImageFormat_custom": "IS_IMG_PNG",
       "ExposureTime_ms_double": 0.9,
-      "PixelClock_MHz_int": 80,
+      "PixelClock_MHz_int": 40,
       "SwTriggerHz_double": 1,
       "BlackLevelCorrection_bool": true,
       "BlackLevelOffset_int": 100,
@@ -27,6 +26,17 @@
       "ExposureTime_ms_double": 1.1
    },
    "4102815405":
+   {
+      "Band": "800",
+      "ExposureTime_ms_double": 0.9
+   },
+   "Comments": "IDS 2-cam system #2",
+   "4102719641":
+   {
+      "Band": "670",
+      "ExposureTime_ms_double": 1.1
+   },
+   "4102742601":
    {
       "Band": "800",
       "ExposureTime_ms_double": 0.9
