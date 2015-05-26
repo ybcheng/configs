@@ -1,8 +1,9 @@
 {
-   "Comments": "IDS 5cam system 1 -- global shutter + log mode auto",
+   "Comments": "IDS 5cam system -- global shutter + log mode auto",
    "GigEVision": false,
    "Parameters":
    {
+      "HWTriggering_bool": true,
       "LogAllSettings_bool": false,
       "ImageTimeout_int": 2,
       "ImageFormat_custom": "IS_IMG_PNG",
@@ -26,9 +27,9 @@
    "4102815408":
    {
       "Band": "480",
-      "ExposureTime_ms_double": 0.83
+      "ExposureTime_ms_double": 0.92
    },
-   "4102719635":
+   "4102815413":
    {
       "Band": "550",
       "ExposureTime_ms_double": 0.95
@@ -36,16 +37,16 @@
    "4102815404":
    {
       "Band": "670",
-      "ExposureTime_ms_double": 0.78
+      "ExposureTime_ms_double": 0.80
    },
    "4102815400":
    {
       "Band": "700",
-      "ExposureTime_ms_double": 1.00
+      "ExposureTime_ms_double": 1.15
    },
    "4102815409":
    {
       "Band": "800",
-      "ExposureTime_ms_double": 0.9
+      "ExposureTime_ms_double": 0.92
    }
 }
