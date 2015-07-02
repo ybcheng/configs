@@ -1,7 +1,13 @@
 {
    "Comments": "IDS 2cam system -- global shutter + log mode auto",
+   "TimeToRestartOnFailure": 60,
+   "TimeToRestartCameraOnFailure": 10,
+   "NumRestartsToAbort": 4,
+   "AltitudeToRestart": 150,
+   "GigEVision": true,
    "Parameters":
    {
+      "HWTriggering_bool": true,
       "ImageFormat_custom": "IS_IMG_PNG",
       "ExposureTime_ms_double": 0.9,
       "PixelClock_MHz_int": 40,
@@ -28,7 +34,7 @@
    "4102815405":
    {
       "Band": "800",
-      "ExposureTime_ms_double": 0.9
+      "ExposureTime_ms_double": 0.7
    },
    "Comments": "IDS 2-cam system #2",
    "4102719641":
@@ -39,6 +45,17 @@
    "4102742601":
    {
       "Band": "800",
-      "ExposureTime_ms_double": 0.9
+      "ExposureTime_ms_double": 0.7
+   },
+   "Comments": "IDS 2-cam system #3",
+   "4102815401":
+   {
+      "Band": "670",
+      "ExposureTime_ms_double": 1.1
+   },
+   "4102815403":
+   {
+      "Band": "800",
+      "ExposureTime_ms_double": 0.7
    }
 }
