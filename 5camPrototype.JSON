@@ -1,5 +1,9 @@
 {
    "Comments": "IDS 5cam system -- global shutter + log mode auto",
+   "TimeToRestartOnFailure": 60,
+   "TimeToRestartCameraOnFailure": 10,
+   "NumRestartsToAbort": 4,
+   "AltitudeToRestart": 150,
    "GigEVision": false,
    "Parameters":
    {
@@ -47,6 +51,6 @@
    "4102815409":
    {
       "Band": "800",
-      "ExposureTime_ms_double": 0.92
+      "ExposureTime_ms_double": 0.6
    }
 }
