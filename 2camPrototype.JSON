@@ -25,7 +25,7 @@
       "DeviceFeatureSetShutterModeGlobal_bool": true,
       "DeviceFeatureSetShutterModeRolling_bool": false
    },
-   "Comments": "IDS 2-cam system #1",
+   "Comments": "IDS 2-cam system #4",
    "4102760682":
    {
       "Band": "670",
@@ -54,6 +54,17 @@
       "ExposureTime_ms_double": 1.1
    },
    "4102815403":
+   {
+      "Band": "800",
+      "ExposureTime_ms_double": 0.7
+   },
+   "Comments": "IDS 2-cam system #1",
+   "4102815399":
+   {
+      "Band": "670",
+      "ExposureTime_ms_double": 1.1
+   },
+   "4102815412":
    {
       "Band": "800",
       "ExposureTime_ms_double": 0.7
