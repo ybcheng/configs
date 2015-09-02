@@ -1,6 +1,6 @@
 {
    "Comments": "IDS 2cam system -- global shutter + log mode auto",
-   "TimeToRestartOnFailure": 60,
+   "TimeToRestartOnFailure": 120,
    "TimeToRestartCameraOnFailure": 10,
    "NumRestartsToAbort": 4,
    "AltitudeToRestart": 150,
@@ -23,7 +23,8 @@
       "ColorMode_custom": "IS_CM_SENSOR_RAW10",
       "DeviceFeatureLogMode_custom": "IS_LOG_MODE_AUTO",
       "DeviceFeatureSetShutterModeGlobal_bool": true,
-      "DeviceFeatureSetShutterModeRolling_bool": false
+      "DeviceFeatureSetShutterModeRolling_bool": false,
+      "UseHIDSNotDeviceID_bool": false
    },
    "Comments": "IDS 2-cam system #4",
    "4102760682":
@@ -53,7 +54,13 @@
       "Band": "670",
       "ExposureTime_ms_double": 1.1
    },
-   "4102815403":
+   "Comments": "New camera installed 2015-08-27",
+   "4102776419":
+   {
+      "Band": "670",
+      "ExposureTime_ms_double": 1.1
+   },
+   "4102887610":
    {
       "Band": "800",
       "ExposureTime_ms_double": 0.7
