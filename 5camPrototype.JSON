@@ -1,6 +1,6 @@
 {
    "Comments": "IDS 5cam system -- global shutter + log mode auto",
-   "TimeToRestartOnFailure": 60,
+   "TimeToRestartOnFailure": 99999,
    "TimeToRestartCameraOnFailure": 10,
    "NumRestartsToAbort": 4,
    "AltitudeToRestart": 150,
