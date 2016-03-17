@@ -1,56 +1,164 @@
 {
-   "Comments": "IDS 5cam system -- global shutter + log mode auto",
-   "TimeToRestartOnFailure": 99999,
-   "TimeToRestartCameraOnFailure": 10,
-   "NumRestartsToAbort": 4,
-   "AltitudeToRestart": 150,
-   "GigEVision": false,
-   "Parameters":
-   {
-      "HWTriggering_bool": true,
-      "LogAllSettings_bool": false,
-      "ImageTimeout_int": 2,
-      "ImageFormat_custom": "IS_IMG_PNG",
-      "ExposureTime_ms_double": 0.9,
-      "PixelClock_MHz_int": 20,
-      "SwTriggerHz_double": 1,
-      "BlackLevelCorrection_bool": true,
-      "BlackLevelOffset_int": 100,
-      "AutoParameter_bool": false,
-      "GainBoost_bool": false,
-      "HWGainFactor_int": 100,
-      "HWGammaCorrection_bool": false,
-      "SWGammaCorrection_int": 100,
-      "HotPixelEnableSensorCorrection_bool": true,
-      "ColorMode_custom": "IS_CM_SENSOR_RAW10",
-      "DeviceFeatureLogMode_custom": "IS_LOG_MODE_AUTO",
-      "DeviceFeatureSetShutterModeGlobal_bool": true,
-      "DeviceFeatureSetShutterModeRolling_bool": false
-   },
-   "Comments": "IDS 5-cam system #1",
-   "4102815408":
-   {
-      "Band": "480",
-      "ExposureTime_ms_double": 0.92
-   },
-   "4102815413":
-   {
-      "Band": "550",
-      "ExposureTime_ms_double": 0.95
-   },
-   "4102815404":
-   {
-      "Band": "670",
-      "ExposureTime_ms_double": 0.80
-   },
-   "4102815400":
-   {
-      "Band": "700",
-      "ExposureTime_ms_double": 1.15
-   },
-   "4102815409":
-   {
-      "Band": "800",
-      "ExposureTime_ms_double": 0.6
-   }
+  "4102719635": {
+    "Comments": "IDS 5-cam system #2",
+    "Band": "480",
+    "ExposureTime_ms_double": 2.2,
+    "calibration": {
+      "projection": "frame",
+      "width": "1280",
+      "height": "1024",
+      "fx": "3.2962101837857763e+003",
+      "fy": "3.2962101837857763e+003",
+      "cx": "6.5441202371923328e+002",
+      "cy": "5.1526586594517721e+002",
+      "skew": "2.2900262379284415e+000",
+      "k1": "-1.3045828657470790e-001",
+      "k2": "-2.4905379047171494e+000",
+      "k3": "5.5317044775685702e+001",
+      "k4": "-3.5505807946285955e+002",
+      "p1": "-1.2560166789202836e-004",
+      "p2": "-4.2275079553522234e-004",
+      "date": "2015-11-17T19:34:43Z"
+    }
+  },
+  "4102776421": {
+    "Comments": "IDS 5-cam system #2",
+    "Band": "700",
+    "ExposureTime_ms_double": 1.3,
+    "calibration": {
+      "projection": "frame",
+      "width": "1280",
+      "height": "1024",
+      "fx": "3.3153668157064608e+003",
+      "fy": "3.3153668157064608e+003",
+      "cx": "6.2466594526414724e+002",
+      "cy": "5.1642510036521435e+002",
+      "skew": "-3.8701965932763238e-001",
+      "k1": "-1.6045515015663828e-001",
+      "k2": "-1.5757309760575955e+000",
+      "k3": "2.8134407763514989e+001",
+      "k4": "-8.0898971647458893e+001",
+      "p1": "1.9657682067341763e-004",
+      "p2": "3.8176245483684273e-006",
+      "date": "2015-11-17T19:19:34Z"
+    }
+  },
+  "4102815400": {
+    "Comments": "IDS 5-cam system #1",
+    "Band": "700",
+    "ExposureTime_ms_double": 1.1
+  },
+  "4102815404": {
+    "Comments": "IDS 5-cam system #1",
+    "Band": "670",
+    "ExposureTime_ms_double": 1.2
+  },
+  "4102815408": {
+    "Comments": "IDS 5-cam system #1",
+    "Band": "480",
+    "ExposureTime_ms_double": 2.2
+  },
+  "4102815409": {
+    "Comments": "IDS 5-cam system #1",
+    "Band": "800",
+    "ExposureTime_ms_double": 0.9
+  },
+  "4102815413": {
+    "Comments": "IDS 5-cam system #1",
+    "Band": "550",
+    "ExposureTime_ms_double": 1.6
+  },
+  "4102833902": {
+    "Comments": "IDS 5-cam system #2",
+    "Band": "550",
+    "ExposureTime_ms_double": 1.9,
+    "calibration": {
+      "projection": "frame",
+      "width": "1280",
+      "height": "1024",
+      "fx": "3.2918073149677771e+003",
+      "fy": "3.2918073149677771e+003",
+      "cx": "6.4414510702882853e+002",
+      "cy": "5.2247817956142717e+002",
+      "skew": "-5.0232504381288334e-001",
+      "k1": "-1.5556837585928299e-001",
+      "k2": "-2.4268010955974035e+000",
+      "k3": "5.1304109605154245e+001",
+      "k4": "-2.7364418875867352e+002",
+      "p1": "3.2058855220541216e-004",
+      "p2": "5.9371462884470125e-005",
+      "date": "2015-11-17T19:39:53Z"
+    }
+  },
+  "4102887611": {
+    "Comments": "IDS 5-cam system #2",
+    "Band": "800",
+    "ExposureTime_ms_double": 0.8,
+    "calibration": {
+      "projection": "frame",
+      "width": "1280",
+      "height": "1024",
+      "fx": "3.3067582473341299e+003",
+      "fy": "3.3067582473341299e+003",
+      "cx": "6.1673754783894753e+002",
+      "cy": "5.2035318403934900e+002",
+      "skew": "2.8039447498762626e-001",
+      "k1": "-1.8769524964758683e-001",
+      "k2": "-6.9548583977033318e-001",
+      "k3": "1.6800501509516124e+001",
+      "k4": "-6.9159459854393234e+001",
+      "p1": "-7.5156026074088930e-005",
+      "p2": "2.0881188924752898e-004",
+      "date": "2015-10-28T23:17:16Z"
+    }
+  },
+  "4102887612": {
+    "Comments": "IDS 5-cam system #2",
+    "Band": "670",
+    "ExposureTime_ms_double": 1.3,
+    "calibration": {
+      "projection": "frame",
+      "width": "1280",
+      "height": "1024",
+      "fx": "3.2968470713270381e+003",
+      "fy": "3.2968470713270381e+003",
+      "cx": "6.3189877329084572e+002",
+      "cy": "4.9548344876400034e+002",
+      "skew": "-3.9024175498173641e-001",
+      "k1": "-1.6263610414911875e-001",
+      "k2": "-1.7952660061031502e+000",
+      "k3": "3.3877769400455463e+001",
+      "k4": "-1.2932636337424807e+002",
+      "p1": "-2.2229451916143182e-005",
+      "p2": "3.3441767845440647e-004",
+      "date": "2015-11-17T20:24:32Z"
+    }
+  },
+  "Comments": "IDS 5cam system -- global shutter + log mode auto",
+  "TimeToRestartOnFailure": 99999,
+  "TimeToRestartCameraOnFailure": 10,
+  "NumRestartsToAbort": 8,
+  "AltitudeToRestart": 150,
+  "GigEVision": false,
+  "Parameters": {
+    "HWTriggering_bool": true,
+    "LogAllSettings_bool": false,
+    "ImageTimeout_int": 2,
+    "ImageFormat_custom": "IS_IMG_PNG",
+    "ExposureTime_ms_double": 0.9,
+    "PixelClock_MHz_int": 20,
+    "SwTriggerHz_double": 1,
+    "BlackLevelCorrection_bool": true,
+    "BlackLevelOffset_int": 100,
+    "AutoParameter_bool": false,
+    "GainBoost_bool": false,
+    "HWGainFactor_int": 100,
+    "HWGammaCorrection_bool": false,
+    "SWGammaCorrection_int": 100,
+    "HotPixelEnableSensorCorrection_bool": true,
+    "ColorMode_custom": "IS_CM_SENSOR_RAW10",
+    "DeviceFeatureLogMode_custom": "IS_LOG_MODE_AUTO",
+    "DeviceFeatureSetShutterModeGlobal_bool": true,
+    "DeviceFeatureSetShutterModeRolling_bool": false
+  }
 }
